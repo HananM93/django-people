@@ -21,4 +21,5 @@ urlpatterns = [
   path('admin/', admin.site.urls),
   # Add the line below
   path('people/', include('people_api.urls'))  # <- add this line to connect people_api's URLS to project
+  
 ]
